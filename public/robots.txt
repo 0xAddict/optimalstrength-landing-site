@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://optimalstrength-landing-20260313.netlify.app/sitemap.xml
