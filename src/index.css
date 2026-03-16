@@ -1355,6 +1355,71 @@ button:focus-visible {
   font-weight: 700;
 }
 
+/* Google badge */
+.google-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 4px 10px;
+  background: #fff;
+}
+
+.google-g { flex-shrink: 0; }
+
+.google-label {
+  font-size: 0.8rem;
+  color: #5f6368;
+}
+
+.google-score {
+  font-weight: 700;
+}
+
+.google-verified {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: #188038;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+/* Star row */
+.star-row {
+  color: #188038;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+/* Review header (stars + badge) */
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+/* Floating review top row */
+.floating-review__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+/* Micro-proof inline badge */
+.micro-proof .google-badge {
+  vertical-align: middle;
+}
+
 /* Micro-proof near final CTA */
 .micro-proof {
   font-size: 0.85rem;
