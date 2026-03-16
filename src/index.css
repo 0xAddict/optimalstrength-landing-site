@@ -542,7 +542,12 @@ h3 {
 
 .guarantee-card {
   display: flex;
+  align-items: flex-start;
   gap: 14px;
+}
+
+.guarantee-card p {
+  margin: 0;
 }
 
 .icon-chip {
@@ -555,6 +560,7 @@ h3 {
   background: linear-gradient(135deg, rgba(239, 106, 33, 0.15), rgba(239, 106, 33, 0.08));
   color: var(--brand);
   font-weight: 700;
+  margin-top: 2px;
 }
 
 .faq-section {
@@ -1413,6 +1419,15 @@ button:focus-visible {
   flex-wrap: wrap;
   gap: 6px;
   margin-bottom: 8px;
+}
+
+.floating-review__top .google-badge {
+  display: inline-flex;
+}
+
+.floating-review__top .star-row {
+  display: inline;
+  line-height: 1;
 }
 
 /* Micro-proof inline badge */
